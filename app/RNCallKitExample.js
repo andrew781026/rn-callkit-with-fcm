@@ -117,7 +117,6 @@ export default class RNCallKitExample extends React.Component {
             <View>
                 <Button title="start incoming call" onPress={this.onIncomingCall}/>
                 <Button title="start incoming call" onPress={this.onIncomingCall}/>
-                <Button title="start outgoingCall call" onPress={this.onOutgoingCall}/>
             </View>
         );
     }
